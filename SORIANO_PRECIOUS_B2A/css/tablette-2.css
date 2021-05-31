@@ -1,0 +1,155 @@
+@media screen and (max-width: 1024) {
+  body {
+    margin: 0px;
+  }
+
+  header {
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    color: #003b5c;
+    letter-spacing: 0.34px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .header-picto {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-nav-bar {
+    padding-left: 65px;
+  }
+
+  .header-logo {
+    width: 221px;
+    height: 64px;
+    padding: 0px 235px 0px 271px;
+  }
+
+  .nav-bar {
+    font-family: "HK Grotesk";
+    color: #003b5c;
+    letter-spacing: 0.34px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin: -15px 0px -20px 50px;
+  }
+
+  .img-double-art {
+    height: 405px;
+    width: 510px;
+  }
+
+  .grid-double-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .grid-item-double-1 {
+    width: 510;
+    height: 650px;
+  }
+
+  footer {
+    background-color: #e74832;
+    height: 240px;
+    margin-top: 0px;
+  }
+
+  .footer {
+    padding-bottom: 0%;
+  }
+
+  .footer-logo-img {
+    width: 180px;
+    height: 85px;
+    margin-top: -35px;
+  }
+
+  .footer-cat-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    margin-top: 15px;
+  }
+
+  .footer-cat {
+    color: white;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-about-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    margin-top: -10px;
+  }
+
+  .footer-about {
+    color: white;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-nl-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    padding-left: 20px;
+    margin-top: -42px;
+  }
+
+  .btn-footer-nl {
+    border: 1px solid white;
+    background-color: #e74832;
+    box-shadow: 5px 5px 5px 0px white;
+    color: white;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 10px 22px 10px 22px;
+    margin-left: 35px;
+  }
+
+  .footer-rs-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    margin-top: -20px;
+  }
+}

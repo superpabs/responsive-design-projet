@@ -1,0 +1,376 @@
+@media screen and (max-width: 850px) {
+  body {
+    margin: 0px;
+  }
+
+  header {
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    color: #003b5c;
+    letter-spacing: 0.34px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-nav-bar {
+    padding-left: 20px;
+  }
+
+  .header-picto {
+    padding-right: 10px;
+  }
+
+  .header-weather-date {
+    padding-right: 40px;
+  }
+
+  .header-logo {
+    width: 200px;
+    height: 55px;
+    padding: 0px 75px 0px 95px;
+  }
+
+  .nav-bar {
+    font-family: "HK Grotesk";
+    color: #003b5c;
+    letter-spacing: 0.34px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin: -10px 0px -10px 0px;
+  }
+
+  .list {
+    display: inline-flex;
+    margin: 13px;
+  }
+
+  .img-double-art {
+    height: 250px;
+    width: 300px;
+  }
+
+  .grid-double-1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .grid-item-double-1 {
+    width: 375px;
+    height: 430px;
+  }
+
+  h1 {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: -0.4px;
+    color: #003b5c;
+  }
+
+  .p-double-art {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: -0.4px;
+    color: #505a5e;
+  }
+
+  h2 {
+    border: 1px solid #e5dbd1;
+    box-shadow: 5px 5px 5px #e5dbd1;
+    color: #003b5c;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 2px 22.5px 2px 22.5px;
+  }
+
+  .hr-1 {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #e5dbd1;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+
+  .vertical-line {
+    border-left: 1px solid #5d534f99;
+    display: inline-block;
+    height: 10px;
+    margin: 0px 10px;
+  }
+
+  .list-souscat2 {
+    display: inline-flex;
+    margin: -5px;
+  }
+
+  .sous-cat ul {
+    padding-left: 0px;
+  }
+
+  .btn-sous-cat {
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: #e74832;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+  }
+
+  .grid {
+    width: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .grid-item {
+    width: 375px;
+    height: 300px;
+    margin: 20px 0px 0px -15px;
+    text-align: center;
+  }
+
+  .img-articles {
+    width: 270px;
+    height: 200px;
+    margin-left: 25px;
+  }
+
+  h3 {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #003b5c;
+    margin-top: -5px;
+  }
+
+  .text1 {
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: #003b5c;
+    text-transform: uppercase;
+    margin-left: 90px;
+  }
+
+  .text3 {
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: #003b5c;
+    text-transform: uppercase;
+    margin-left: 65px;
+  }
+
+  .text4 {
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: #003b5c;
+    text-transform: uppercase;
+    margin-left: 90px;
+  }
+
+  .text5 {
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    color: #003b5c;
+    text-transform: uppercase;
+    margin-left: 90px;
+  }
+
+  .btn-articles {
+    background-color: transparent;
+    border: none;
+    color: #e74832;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    margin-left: 25px;
+  }
+
+  .hr {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: #e5dbd1;
+    margin-top: 25px;
+  }
+
+  h3 {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #003b5c;
+    text-align: center;
+  }
+
+  h5 {
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding-top: 55px;
+  }
+
+  .list-souscat3 {
+    display: inline-flex;
+    margin: -8px;
+  }
+
+  footer {
+    background-color: #e74832;
+    height: 280px;
+    margin-top: 20px;
+  }
+
+  .footer {
+    padding-bottom: 0px;
+  }
+
+  .footer-logo-img {
+    width: 165px;
+    height: 80px;
+    margin-top: 0px;
+  }
+
+  .footer-cat-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    margin-top: 30px;
+  }
+
+  .footer-cat {
+    color: white;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-li {
+    margin: 5px 0px 0px 0px;
+  }
+
+  .footer-about-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    margin-top: 15px;
+  }
+
+  .footer-about {
+    color: white;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    letter-spacing: 0.4px;
+  }
+
+  .footer-nl-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    padding-left: 0px;
+    margin-top: -10px;
+  }
+
+  .btn-footer-nl {
+    border: 1px solid white;
+    background-color: #e74832;
+    box-shadow: 5px 5px 5px 0px white;
+    color: white;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 10px 6px 10px 6px;
+    margin-left: 0px;
+  }
+
+  .footer-rs-title {
+    color: white;
+    font-family: "HK Grotesk";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    margin-top: 3px;
+  }
+
+  .list-rs {
+    display: inline-flex;
+    margin: 5px;
+  }
+
+  .mini-infos {
+    color: white;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+  }
+
+  .copyright {
+    float: right;
+    padding-right: 50px;
+    padding-top: 20px;
+  }
+}

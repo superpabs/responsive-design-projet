@@ -1,0 +1,488 @@
+body {
+  margin: 0px;
+}
+
+/* HEADER */
+
+header {
+  font-family: "HK Grotesk";
+  font-size: 12px;
+  color: #003b5c;
+  letter-spacing: 0.34px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li:hover {
+  background-color: #003b5c;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  background: #e3dacc80;
+  color: #003b5c;
+}
+
+.header-nav {
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+.weather {
+  color: #505a5e;
+}
+
+.header-logo {
+  width: 221px;
+  height: 64px;
+  padding: 0px 520px 0px 600px;
+}
+
+hr {
+  border-color: #e3dacc80;
+}
+
+.nav-bar {
+  font-family: "HK Grotesk";
+  color: #003b5c;
+  letter-spacing: 0.34px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin: -15px 0px -20px 0px;
+}
+
+.list {
+  display: inline-flex;
+  margin: 20px;
+}
+
+.grid-double-1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.grid-item-double-1 {
+  width: 736px;
+  height: 650px;
+}
+
+.sous-cat-double-articles {
+  text-align: center;
+}
+
+.sous-cat-double-articles p {
+  font-family: "HK Grotesk";
+  background-color: white;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #003b5c;
+}
+
+h1 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  letter-spacing: -0.4px;
+  color: #003b5c;
+}
+
+.p-double-art {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  color: #505a5e;
+}
+
+.btn-articles {
+  background-color: transparent;
+  border: none;
+  color: #e74832;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.hr-1 {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  color: #e5dbd1;
+  margin-top: 80px;
+}
+
+.hr-1::before,
+.hr-1::after {
+  border-top: 0.0625em solid;
+  content: "";
+  flex: 1;
+  margin: 0 1.5em;
+}
+
+h2 {
+  border: 1px solid #e5dbd1;
+  box-shadow: 5px 5px 5px #e5dbd1;
+  color: #003b5c;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 2px 22.5px 2px 22.5px;
+}
+
+.sous-cat {
+  display: flexbox;
+  justify-content: space-between;
+  text-align: center;
+  font-family: "HK Grotesk";
+  font-size: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #5d534f99;
+}
+
+.list-souscat {
+  display: inline-flex;
+  margin: 20px;
+}
+
+.list-souscat2 {
+  display: inline-flex;
+  margin: 20px;
+}
+
+.list-souscat3 {
+  display: inline-flex;
+  margin: 20px;
+}
+
+.sous-cat ul {
+  padding-left: 120px;
+}
+
+.vertical-line {
+  border-left: 1px solid #5d534f99;
+  display: inline-block;
+  height: 10px;
+  margin: 0px 20px;
+}
+
+.btn-sous-cat {
+  float: right;
+  background-color: transparent;
+  border: none;
+  color: #e74832;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid-item {
+  width: 429px;
+  height: 393px;
+  margin: 20px;
+}
+
+.sous-cat-articles {
+  overflow: hidden;
+}
+
+.text1 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #003b5c;
+  text-transform: uppercase;
+  width: 15%;
+  float: left;
+  display: inline;
+}
+
+.text2 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #505a5e;
+}
+
+h3 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  color: #003b5c;
+  margin-top: -5px;
+}
+
+h5 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 35px;
+  padding-top: 95px;
+}
+
+.hr {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  color: #e5dbd1;
+}
+
+.hr::before,
+.hr::after {
+  border-top: 0.0625em solid;
+  content: "";
+  flex: 1;
+  margin: 0 1.5em;
+}
+
+.text3 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #003b5c;
+  text-transform: uppercase;
+  width: 22%;
+  float: left;
+  display: inline;
+}
+
+.text4 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #003b5c;
+  text-transform: uppercase;
+  width: 16%;
+  float: left;
+  display: inline;
+}
+
+.text5 {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #003b5c;
+  text-transform: uppercase;
+  width: 10%;
+  float: left;
+  display: inline;
+}
+
+.newsletter-content {
+  background-color: #003b5c;
+  height: 456px;
+}
+
+.p-newsletter {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.btn-nl-position {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.btn-newsletter {
+  border: 1px solid #003b5c;
+  background-color: white;
+  box-shadow: 5px 5px 5px 0px #e74832;
+  color: #003b5c;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 16px 55px 16px 55px;
+}
+
+footer {
+  background-color: #e74832;
+  height: 390px;
+  margin-top: 75px;
+}
+
+.footer-logo-img {
+  width: 285px;
+  height: 138px;
+  margin-top: 65px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.footer-cat-title {
+  color: white;
+  font-family: "HK Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  margin-top: 110px;
+}
+
+.footer-cat {
+  color: white;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.footer-li {
+  margin: 10px 0px 0px 0px;
+}
+
+.footer-about-title {
+  color: white;
+  font-family: "HK Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  margin-top: 90px;
+}
+
+.footer-about {
+  color: white;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+}
+
+.footer-nl-title {
+  color: white;
+  font-family: "HK Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  padding-left: 20px;
+  margin-top: 65px;
+}
+
+.btn-footer-nl {
+  border: 1px solid white;
+  background-color: #e74832;
+  box-shadow: 5px 5px 5px 0px white;
+  color: white;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 13px 26px 13px 26px;
+  margin-left: 40px;
+}
+
+.footer-rs-title {
+  color: white;
+  font-family: "HK Grotesk";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  margin-top: 78px;
+}
+
+.list-rs {
+  display: inline-flex;
+  margin: 10px;
+}
+
+hr {
+  color: white;
+}
+
+.mini-infos {
+  color: white;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.mentions {
+  padding: 5px 0px 0px 50px;
+  margin: auto;
+  float: left;
+}
+
+.copyright {
+  float: right;
+  padding-right: 50px;
+  padding-top: 20px;
+}
